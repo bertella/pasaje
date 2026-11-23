@@ -1,0 +1,6 @@
+{
+  "name": "GMAJ DESARROLLOS — Bv. San Juan 600 | Activo Inmobiliario",
+  "description": "GMAJ DESARROLLOS presenta un activo inmobiliario integral en el centro de Córdoba Capital, zona Tribunales. Edificio en bloque por USD 307.000 con ingresos mensuales superiores a $3.000.000.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
