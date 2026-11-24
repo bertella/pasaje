@@ -5,7 +5,11 @@ export function initAnalytics(): void {
   if (typeof window === 'undefined') return;
   window.dataLayer = window.dataLayer || [];
 
-  if (gtmId && !document.getElementById('gtm-script')) {
+  if (
+    gtmId &&
+    !document.getElementById('gtm-script') &&
+    !document.querySelector(`script[src*="gtm.js?id=${encodeURIComponent(gtmId)}"]`)
+  ) {
     window.dataLayer.push({
       'gtm.start': new Date().getTime(),
       event: 'gtm.js',
